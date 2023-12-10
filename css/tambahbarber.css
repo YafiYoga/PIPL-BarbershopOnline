@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #6D4C3D;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+ 
+  .layanan{
+    background-color: #E1DBD8;
+    
+}
+
+.form-group{
+    display: flex;
+  
+}
+
+.form-group label {
+    margin-right: 40px;
+}
+.form-group input{
+    width: 500px;
+}
+
+.button {
+  width: 40px;
+  height: 60px;
+}
+
+  

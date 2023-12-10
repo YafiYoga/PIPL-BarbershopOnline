@@ -1,0 +1,303 @@
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: #6D4C3D;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  nav ul.menu {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul.menu li {
+    margin-right: 20px;
+  }
+  
+  nav ul.menu li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+  
+  form.d-flex {
+    margin-left: 20px;
+  }
+  
+  form.d-flex input[type="search"] {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  form.d-flex button {
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #6D4C3D;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form.d-flex button:hover {
+    background-color: #8C6350;
+  }
+  
+  .banner img {
+    width: 100%;
+  }
+  
+  .konten {
+    padding: 20px 0;
+  }
+  
+  .konten .container {
+    text-align: center;
+  }
+  
+  .konten h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .konten .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .konten .col-md-3 {
+    width: 25%;
+    padding: 10px;
+  }
+  
+  .card {
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card .card-img-top {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .card .card-body {
+    padding: 20px;
+  }
+  
+  .card .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card .card-text {
+    margin-bottom: 10px;
+  }
+  
+  .card .btn-primary {
+    background-color: #6D4C3D;
+    border: none;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card .btn-primary:hover {
+    background-color: #8C6350;
+  }
+   */
+   
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E1DBD8;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6D4C3D;
+  color: #ffffff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.banner img {
+  width: 100%;
+  max-height: 700px;
+}
+
+.konten {
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin-left: 60px;
+  width: 18rem;
+}
+
+.card-body {
+  text-align: center;
+  padding: 10px;
+  border-radius: 3px;
+}
+.kartu-body{
+  background-color: #6D4C3D;
+}
+
+.text {
+  font-size: 30px;
+  color: white;
+}
+
+.card-text {
+  font-size: 18px;
+  color: white;
+}
+
+.card-img-top {
+  height: 150px; /* Ubah ukuran sesuai kebutuhan Anda */
+  object-fit: cover;
+}
+
+.btn-primary {
+  background-color: #6D4C3D;
+  border-color: #6D4C3D;
+}
+
+.btn-primary:hover {
+  background-color: #593b2c;
+  border-color: #593b2c;
+}
+
+.form-control {
+  border-color: #6D4C3D;
+}
+.col-md-3{
+  margin-left: 45px;
+  margin-right: 40px;
+}
+.home{
+  color: #6D4C3D;
+  
+}
+.search{
+  border: none;
+  background-color: #6D4C3D;
+  border-radius: 5px;
+  color: #ffff;
+}
+.search:hover{
+  background-color: #ffff;
+  color: #6D4C3D;
+}
+ .detailayanan {
+  width: 200px; /* Set the width as needed */
+  height: 50px; /* Set the height as needed */
+  background-color: #ffffff; 
+  border-radius: 5px;
+  color: #6D4C3D;
+  border: none;
+
+
+}
+
+/* Hover effect */
+.detailayanan:hover {
+  background-color: #ffffff;
+  color: #6D4C3D;
+}
+
+/* Tambahan CSS untuk memindahkan konten navbar ke kanan header */
+.navbar-content {
+  display: flex;
+  align-items: center;
+}
+
+/* CSS untuk memberikan jarak antara card */
+.card {
+  margin-bottom: 20px;
+}
+.h2{
+  background-color: #6D4C3D;
+  width: 1300px;
+  height: 60px;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 15px;
+  border-radius: 3px;
+}
+.h2 h2{
+ 
+  text-align: center;
+  color: #ffff;
+  
+}
